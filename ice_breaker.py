@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 from langchain.chains import LLMChain
+# from langchain_community.chat_models import ChatOpenAI
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 import os
