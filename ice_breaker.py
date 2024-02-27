@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
     chain = LLMChain(llm=llm, prompt=summary_prompt_template)
     # res = chain.invoke(input={"information": information})
-    linkedin_profile_url = linkedin_lookup_agent(name="Gopa Chaudary Infosys ")
+    linkedin_profile_url = linkedin_lookup_agent(name="Sudheesh Nair")
 
     linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_profile_url)#"https://www.linkedin.com/in/saulvanbeurden/")
 
